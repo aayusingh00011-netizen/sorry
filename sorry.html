@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sorry Supriya ❤️</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: radial-gradient(circle at top, #ff9a9e, #fad0c4, #fad0c4);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      color: #333;
+    }
+
+    .card {
+      background: white;
+      border-radius: 20px;
+      padding: 30px;
+      max-width: 420px;
+      text-align: center;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+      animation: fadeIn 1.5s ease;
+    }
+
+    h1 {
+      color: #e91e63;
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: 22px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    .heart {
+      font-size: 50px;
+      animation: beat 1s infinite;
+      margin: 15px 0;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 25px;
+      background: #e91e63;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background: #c2185b;
+    }
+
+    @keyframes beat {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>I'm Sorry 😔</h1>
+    <h2>Dear Supriya ❤️</h2>
+    <div class="heart">💖</div>
+    <p>
+      Mujhse jo bhi galti hui ho, dil se maafi chahta hoon.
+      Tum mere liye bahut special ho aur main tumhe kabhi hurt nahi karna chahta.
+      Please mujhe maaf kar do.
+    </p>
+    <p>
+      Tumhari smile meri duniya hai ✨
+    </p>
+    <button onclick="alert('Thank you Supriya ❤️')">Maaf Kar Do?</button>
+  </div>
+</body>
+</html>
